@@ -1,2 +1,16 @@
-# net-5
- .NET 5 Samples
+# .NET Samples
+
+## Environment
+
+## Startup
+
+## Configurations
+### Custom Configuration Provider Sample
+
+## Dependency Injection
+
+## Middlewares
+
+
+## 
+
