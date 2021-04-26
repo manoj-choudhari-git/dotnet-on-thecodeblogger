@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-left">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about Autofac integration with ASP .NET Core Web Apps</p>
+    <div class="card" style="margin-top:2rem; width: 40rem">
+        <div class="card-header">
+            Created On Times (Transient and Scoped is same in this case, can you guess why ?)
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item text-left"><strong>Singleton.CreatedOn:</strong> @ViewData["SingletonCreatedOn"]</li>
+            <li class="list-group-item text-left"><strong>Scoped.CreatedOn:</strong>  @ViewData["ScopedCreatedOn"]</li>
+            <li class="list-group-item text-left"><strong>Transient.CreatedOn:</strong> @ViewData["TransientCreatedOn"]</li>
+        </ul>
+    </div>
+</div>
