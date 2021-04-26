@@ -42,8 +42,34 @@ Introduction to Options pattern in .NET to ensure that related settings are hold
 
 ## Dependency Injection
 
+
+
 ## Middlewares
 
 
-## 
+## Entity Framework 
+
+
+## ASP .NET Identity
+
+
+## Authorization
+
+
+## Authentication
+
+
+## Logging
+
+
+## Exception Handling
+
+
+## Angular with .NET Core API
+
+
+## Project Ideas
+
+
+
 
