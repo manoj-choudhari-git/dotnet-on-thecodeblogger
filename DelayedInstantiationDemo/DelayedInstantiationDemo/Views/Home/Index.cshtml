@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about delayed instantiation with .NET dependency injection</p>
+    <div class="card" style="margin-top:2rem; width: 40rem">
+        <div class="card-header">
+            Created On Time
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item text-left"><strong>Dependency.IsValueCreated:</strong> @ViewData["IsValueCreated"]</li>
+            <li class="list-group-item text-left"><strong>Dependency.Value.CreatedOn:</strong>  @ViewData["CreatedOn"]</li>
+        </ul>
+    </div>
+</div>
