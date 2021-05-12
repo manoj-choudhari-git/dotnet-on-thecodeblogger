@@ -1,4 +1,4 @@
-https://thecodeblogger.com/2020/10/03/getting-started-on-net-5-the-latest-net-core-version/
+- [Getting Started](https://thecodeblogger.com/2020/10/03/getting-started-on-net-5-the-latest-net-core-version/)
 
 # Environment
 
