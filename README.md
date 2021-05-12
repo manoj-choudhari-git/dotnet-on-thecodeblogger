@@ -68,13 +68,6 @@
 - [Internals of Web.Config File for .NET Core Web Apps](https://thecodeblogger.com/2021/05/10/asp-net-core-module-and-web-config-file-for-iis-hosting/)
 
 
-# Logging
-
-- [Enable Logging in Console Apps](https://thecodeblogger.com/2021/05/11/how-to-enable-logging-in-net-console-applications/)
-
-- [Logging Providers in .NET Core Web Apps](https://thecodeblogger.com/2021/05/12/customize-logging-configurations-in-net-core-web-applications/)
-
-
 # Middlewares
 - [Create Custom Middleware](https://thecodeblogger.com/2020/10/04/custom-middlewares-in-asp-net-core-5/)
 
@@ -83,6 +76,13 @@
 - [Unit testing middlewares](https://thecodeblogger.com/2020/10/11/how-to-unit-test-asp-net-core-middleware/)
 
 - [NuGet Package for unit testing middlewares](https://thecodeblogger.com/2020/10/14/nuget-for-unit-testing-asp-net-core-middleware/)
+
+
+# Logging
+
+- [Enable Logging in Console Apps](https://thecodeblogger.com/2021/05/11/how-to-enable-logging-in-net-console-applications/)
+
+- [Logging Providers in .NET Core Web Apps](https://thecodeblogger.com/2021/05/12/customize-logging-configurations-in-net-core-web-applications/)
 
 
 # Entity Framework 
