@@ -2,19 +2,12 @@ https://thecodeblogger.com/2020/10/03/getting-started-on-net-5-the-latest-net-co
 
 # Environment
 
-### Setup Environment Variables
-This post covers multiple ways to set the environment variables.
-- Blog: https://thecodeblogger.com/2021/04/12/multiple-ways-to-set-hosting-environment-in-net-applications/
+- [Multiple Ways to Set Environment For .NET Apps](https://thecodeblogger.com/2021/04/12/multiple-ways-to-set-hosting-environment-in-net-applications/)
 
 # Startup
+- [Environment specific startup classes](https://thecodeblogger.com/2021/04/16/how-to-create-environment-specific-startup-class-in-net/)
 
-### Environment specific startup classes
-This post covers how environment specific startup classes can be used.
-- Post: https://thecodeblogger.com/2021/04/16/how-to-create-environment-specific-startup-class-in-net/
-
-### Environment specific startup methods
-This post covers how the Startup class can use environment specific Configure and ConfigureServices methods.
-- Post: https://thecodeblogger.com/2021/04/17/how-to-create-environment-specific-startup-methods-in-net-applications/
+- [Environment specific startup methods](https://thecodeblogger.com/2021/04/17/how-to-create-environment-specific-startup-methods-in-net-applications/)
 
 # Configurations
 
@@ -45,64 +38,62 @@ Introduction to Options pattern in .NET to ensure that related settings are hold
 
 # Dependency Injection
 
-https://thecodeblogger.com/2021/04/23/getting-started-on-dependency-injection-in-net-applications/
+- [Getting Started](https://thecodeblogger.com/2021/04/23/getting-started-on-dependency-injection-in-net-applications/)
 
-https://thecodeblogger.com/2021/04/24/dependency-injection-in-net-basic-terminology/
+- [Basic Teminology](https://thecodeblogger.com/2021/04/24/dependency-injection-in-net-basic-terminology/)
 
+- [.NET Console App with Dependency Injection](https://thecodeblogger.com/2021/04/25/demo-console-app-for-understanding-dependency-injection-in-net/)
 
-https://thecodeblogger.com/2021/04/25/demo-console-app-for-understanding-dependency-injection-in-net/
+- [Default Container vs Autofac Container](https://thecodeblogger.com/2021/04/26/dependency-injection-in-net-default-container-vs-autofac/)
 
-https://thecodeblogger.com/2021/04/26/dependency-injection-in-net-default-container-vs-autofac/
+- [Autofac Container with .NET Core Web Apps](https://thecodeblogger.com/2021/04/27/how-to-use-autofac-container-with-net-web-applications/)
 
-https://thecodeblogger.com/2021/04/27/how-to-use-autofac-container-with-net-web-applications/
-
-https://thecodeblogger.com/2021/04/28/delayed-instantiation-using-dependency-injection-in-net/
+- [Lazy: Delayed Instantiation Demo](https://thecodeblogger.com/2021/04/28/delayed-instantiation-using-dependency-injection-in-net/)
 
 
 # Generic Host
 
-https://thecodeblogger.com/2021/04/30/quick-introduction-to-generic-host-in-net-applications/
+- [Introduction to Generic Host](https://thecodeblogger.com/2021/04/30/quick-introduction-to-generic-host-in-net-applications/)
 
-https://thecodeblogger.com/2021/05/01/three-important-interfaces-related-to-net-generic-host/
+- [Three Interfaces related to Generic Host](https://thecodeblogger.com/2021/05/01/three-important-interfaces-related-to-net-generic-host/)
 
-https://thecodeblogger.com/2021/05/02/net-generic-host-host-configuration-vs-app-configuration/
+- [Host Configurations vs App Configurations](https://thecodeblogger.com/2021/05/02/net-generic-host-host-configuration-vs-app-configuration/)
 
-https://thecodeblogger.com/2021/05/03/some-important-generic-host-settings-for-net-applications/
+- [Generic Host Settings](https://thecodeblogger.com/2021/05/03/some-important-generic-host-settings-for-net-applications/)
 
-https://thecodeblogger.com/2021/05/04/how-to-use-appsettings-json-config-file-with-net-console-applications/
+- [How to use appsettings.json with Console App](https://thecodeblogger.com/2021/05/04/how-to-use-appsettings-json-config-file-with-net-console-applications/)
 
 
 # Hosting Web Apps
 
-https://thecodeblogger.com/2021/05/05/quick-introduction-to-kestrel-server-in-asp-net-core-applications/
+- [Introduction to Kestrel](https://thecodeblogger.com/2021/05/05/quick-introduction-to-kestrel-server-in-asp-net-core-applications/)
 
-https://thecodeblogger.com/2021/05/06/customizing-url-binding-for-asp-net-core-kestrel-server/
+- [URL Bindings in Kestrel](https://thecodeblogger.com/2021/05/06/customizing-url-binding-for-asp-net-core-kestrel-server/)
 
-https://thecodeblogger.com/2021/05/07/certificates-and-limits-for-asp-net-core-kestrel-web-server/
+- [Certificates and General Limits in Kestrel](https://thecodeblogger.com/2021/05/07/certificates-and-limits-for-asp-net-core-kestrel-web-server/)
 
+- [Enable TLS and Connection Logging in Kestrel](https://thecodeblogger.com/2021/05/08/tls-and-connection-logging-for-asp-net-core-kestrel-web-server/)
 
-https://thecodeblogger.com/2021/05/08/tls-and-connection-logging-for-asp-net-core-kestrel-web-server/
+- [Host .NET Core Web App in IIS](https://thecodeblogger.com/2021/05/09/how-to-publish-asp-net-core-web-applications-to-iis/)
 
-https://thecodeblogger.com/2021/05/09/how-to-publish-asp-net-core-web-applications-to-iis/
-
-https://thecodeblogger.com/2021/05/10/asp-net-core-module-and-web-config-file-for-iis-hosting/
+- [Internals of Web.Config File for .NET Core Web Apps](https://thecodeblogger.com/2021/05/10/asp-net-core-module-and-web-config-file-for-iis-hosting/)
 
 
 # Logging
 
-https://thecodeblogger.com/2021/05/11/how-to-enable-logging-in-net-console-applications/
+- [Enable Logging in Console Apps](https://thecodeblogger.com/2021/05/11/how-to-enable-logging-in-net-console-applications/)
 
-https://thecodeblogger.com/2021/05/12/customize-logging-configurations-in-net-core-web-applications/
+- [Logging Providers in .NET Core Web Apps](https://thecodeblogger.com/2021/05/12/customize-logging-configurations-in-net-core-web-applications/)
 
 
 # Middlewares
-https://thecodeblogger.com/2020/10/04/custom-middlewares-in-asp-net-core-5/
+- [Create Custom Middleware](https://thecodeblogger.com/2020/10/04/custom-middlewares-in-asp-net-core-5/)
 
-https://thecodeblogger.com/2020/10/05/branching-the-request-pipeline-in-asp-net-core-5/
+- [Branching the request pipeline](https://thecodeblogger.com/2020/10/05/branching-the-request-pipeline-in-asp-net-core-5/)
 
-https://thecodeblogger.com/2020/10/11/how-to-unit-test-asp-net-core-middleware/
+- [Unit testing middlewares](https://thecodeblogger.com/2020/10/11/how-to-unit-test-asp-net-core-middleware/)
 
-https://thecodeblogger.com/2020/10/14/nuget-for-unit-testing-asp-net-core-middleware/
+- [NuGet Package for unit testing middlewares](https://thecodeblogger.com/2020/10/14/nuget-for-unit-testing-asp-net-core-middleware/)
 
 # Entity Framework 
 
