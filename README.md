@@ -4,37 +4,26 @@ https://thecodeblogger.com/2020/10/03/getting-started-on-net-5-the-latest-net-co
 
 - [Multiple Ways to Set Environment For .NET Apps](https://thecodeblogger.com/2021/04/12/multiple-ways-to-set-hosting-environment-in-net-applications/)
 
+
 # Startup
 - [Environment specific startup classes](https://thecodeblogger.com/2021/04/16/how-to-create-environment-specific-startup-class-in-net/)
 
 - [Environment specific startup methods](https://thecodeblogger.com/2021/04/17/how-to-create-environment-specific-startup-methods-in-net-applications/)
 
+
 # Configurations
+- [Apply Config Transformations](https://thecodeblogger.com/2021/04/14/applying-config-transformations-in-net-web-applications/)
 
-### Config Transformations
-This post explains how the config transformation works with .NET
-- Post: https://thecodeblogger.com/2021/04/14/applying-config-transformations-in-net-web-applications/
+- [Memory Configuration Provider](https://thecodeblogger.com/2021/04/18/using-memory-configuration-provider-in-net-applications/)
 
-### Memory Configuration Provider
-This post shows a demo about how memory configuration provider can be used in the code.
-- Post: https://thecodeblogger.com/2021/04/18/using-memory-configuration-provider-in-net-applications/
+- [Implement Custom Configuration Provider](https://thecodeblogger.com/2021/04/19/implement-a-custom-configuration-provider-in-net-web-app/) - Demo is available at [this link](https://github.com/manoj-choudhari-git/net-samples/tree/main/CustomConfigProviderExample)
 
-### Custom Configuration Provider Sample
-Implements a custom configuration provider to read data from the database using EF Core. 
-- URL: https://github.com/manoj-choudhari-git/net-samples/tree/main/CustomConfigProviderExample
-- Post: https://thecodeblogger.com/2021/04/19/implement-a-custom-configuration-provider-in-net-web-app/
+- [Multiple ways to access configurations](https://thecodeblogger.com/2021/04/20/multiple-ways-to-access-configurations-in-net-applications/)
 
-### Accessing Configurations
-This post lists different methods which can be used to read the configurations. 
-- Post: https://thecodeblogger.com/2021/04/20/multiple-ways-to-access-configurations-in-net-applications/
+- [Options Patterm - IOptions, IOptionsSnapshot and IOptionsMonitor](https://thecodeblogger.com/2021/04/21/options-pattern-in-net-ioptions-ioptionssnapshot-ioptionsmonitor/)
 
-### Options Pattern
-Introduction to Options pattern in .NET to ensure that related settings are hold together in a strongly typed object.
-- Post: https://thecodeblogger.com/2021/04/21/options-pattern-in-net-ioptions-ioptionssnapshot-ioptionsmonitor/
+- [Options Pattern Demo using IOptionsMonitor](https://thecodeblogger.com/2021/04/22/ioptionsmonitor-demo-reload-configurations-in-net-applications/) - Code is available at [this link](https://github.com/manoj-choudhari-git/net-samples/tree/main/OptionsExample) 
 
-### Options Pattern - Demo using IOptionsMonitor
-- Demo - https://github.com/manoj-choudhari-git/net-samples/tree/main/OptionsExample
-- Post - https://thecodeblogger.com/2021/04/22/ioptionsmonitor-demo-reload-configurations-in-net-applications/
 
 # Dependency Injection
 
@@ -95,14 +84,16 @@ Introduction to Options pattern in .NET to ensure that related settings are hold
 
 - [NuGet Package for unit testing middlewares](https://thecodeblogger.com/2020/10/14/nuget-for-unit-testing-asp-net-core-middleware/)
 
+
 # Entity Framework 
 
 
 # Authentication & Authorization
 
-https://thecodeblogger.com/2020/12/05/understanding-the-basics-about-the-refresh-tokens/
+- [Basics - Refresh Tokens](https://thecodeblogger.com/2020/12/05/understanding-the-basics-about-the-refresh-tokens/)
 
-https://thecodeblogger.com/2020/12/05/refresh-tokens-using-net-5-web-api-and-net-core-identity/
+- [Refresh Tokens using .NET Web API and .NET Core Identity](https://thecodeblogger.com/2020/12/05/refresh-tokens-using-net-5-web-api-and-net-core-identity/)
+
 
 # Exception Handling
 
