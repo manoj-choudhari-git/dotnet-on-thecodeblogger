@@ -35,6 +35,11 @@ namespace WebAppLoggingExample
                                 Indented = true
                             };
                         });
+                        // Application Insights
+                        loggingBuilder.AddApplicationInsights(instrumentationKey: "");
+
+                        // Azure App Service Diagnostics
+                        loggingBuilder.AddAzureWebAppDiagnostics();
                     });
                 });
     }
