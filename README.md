@@ -26,7 +26,6 @@
 
 
 # Dependency Injection
-
 - [Getting Started](https://thecodeblogger.com/2021/04/23/getting-started-on-dependency-injection-in-net-applications/)
 
 - [Basic Teminology](https://thecodeblogger.com/2021/04/24/dependency-injection-in-net-basic-terminology/)
@@ -41,7 +40,6 @@
 
 
 # Generic Host
-
 - [Introduction to Generic Host](https://thecodeblogger.com/2021/04/30/quick-introduction-to-generic-host-in-net-applications/)
 
 - [Three Interfaces related to Generic Host](https://thecodeblogger.com/2021/05/01/three-important-interfaces-related-to-net-generic-host/)
@@ -54,7 +52,6 @@
 
 
 # Hosting Web Apps
-
 - [Introduction to Kestrel](https://thecodeblogger.com/2021/05/05/quick-introduction-to-kestrel-server-in-asp-net-core-applications/)
 
 - [URL Bindings in Kestrel](https://thecodeblogger.com/2021/05/06/customizing-url-binding-for-asp-net-core-kestrel-server/)
@@ -79,16 +76,26 @@
 
 
 # Logging
-
 - [Enable Logging in Console Apps](https://thecodeblogger.com/2021/05/11/how-to-enable-logging-in-net-console-applications/)
 
 - [Logging Providers in .NET Core Web Apps](https://thecodeblogger.com/2021/05/12/customize-logging-configurations-in-net-core-web-applications/)
+
+- [Configure Logging in appsettings.json](https://thecodeblogger.com/2021/05/13/configure-logging-using-appsettings-json-in-net-applications/)
+
+- [Overview of Logging Providers](https://thecodeblogger.com/2021/05/14/overview-of-logging-providers-available-in-net/)
+
+- [Multiple ways to set minimum log level](https://thecodeblogger.com/2021/05/14/overview-of-logging-providers-available-in-net/)
 
 
 # Entity Framework 
 
 
 # Authentication & Authorization
+- [Adding ASP .NET Core Identity to Web API Project](https://thecodeblogger.com/2020/01/23/adding-asp-net-core-identity-to-web-api-project/)
+
+- [Secure ASP .NET Core API using Cookie Authentication](https://thecodeblogger.com/2020/01/25/securing-net-core-3-api-with-cookie-authentication/)
+
+- [Secure ASP .NET Core API using JWT Authentication](https://thecodeblogger.com/2020/01/31/securing-net-core-3-api-using-jwt-authentication/)
 
 - [Basics - Refresh Tokens](https://thecodeblogger.com/2020/12/05/understanding-the-basics-about-the-refresh-tokens/)
 
