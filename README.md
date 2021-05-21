@@ -74,6 +74,18 @@
 
 - [NuGet Package for unit testing middlewares](https://thecodeblogger.com/2020/10/14/nuget-for-unit-testing-asp-net-core-middleware/)
 
+- [Static Files Middleware](https://thecodeblogger.com/2021/05/16/static-files-middleware-in-asp-net-core-applications/)
+
+- [Serve Static Files From Network Share](https://thecodeblogger.com/2021/05/17/network-path-for-static-files-in-asp-net-core-web-applications/)
+
+- [Static Files and Default Files](https://thecodeblogger.com/2021/05/18/static-files-vs-default-files-in-asp-net-core-web-applications/)
+
+- [Set Response Headers (Response Caching) for Static Files](https://thecodeblogger.com/2021/05/19/headers-with-static-files-middleware-in-net-applications/)
+
+- [Directory Browser and File Server Middleware](https://thecodeblogger.com/2021/05/20/directory-browser-and-file-server-middlewares-in-net-web-apps/)
+
+- [Http Client Middleware - IHttpClientFactory Basic Usage](https://thecodeblogger.com/2021/05/21/new-way-of-making-http-requests-from-net-applications/)
+
 
 # Logging
 - [Enable Logging in Console Apps](https://thecodeblogger.com/2021/05/11/how-to-enable-logging-in-net-console-applications/)
