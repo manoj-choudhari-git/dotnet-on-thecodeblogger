@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 
-namespace WebAppLoggingExample
+namespace WebApiDemo
 {
     public class Startup
     {
@@ -24,21 +27,17 @@ namespace WebAppLoggingExample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //// Azure App Service File Logger Options
-            //services.Configure<AzureFileLoggerOptions>(options =>
+            // NOTE: Below commented call is for reference in case filter needs to be applied.
+            //services.AddControllers(options =>
             //{
-            //    options.FileName = "azure-diagnostics-";
-            //    options.FileSizeLimit = 50 * 1024;
-            //    options.RetainedFileCountLimit = 5;
+            //    options.Filters.Add(typeof(CustomExceptionFilterAttribute));
             //});
 
-            //// Azure App Service Storage Account Blob Logger Options
-            //services.Configure<AzureBlobLoggerOptions>(options =>
-            //{
-            //    options.BlobName = "log.txt";
-            //});
-
-            services.AddControllersWithViews();
+            services.AddControllers();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApiDemo", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,15 +46,13 @@ namespace WebAppLoggingExample
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApiDemo v1"));
             }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+
+            app.UseExceptionHandler("/api/error");
+
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
 
             app.UseRouting();
 
@@ -63,12 +60,8 @@ namespace WebAppLoggingExample
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{culture}/{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllers();
             });
-
-
         }
     }
 }
