@@ -74,6 +74,8 @@
 
 - [NuGet Package for unit testing middlewares](https://thecodeblogger.com/2020/10/14/nuget-for-unit-testing-asp-net-core-middleware/)
 
+
+# Static Files Middlewares
 - [Static Files Middleware](https://thecodeblogger.com/2021/05/16/static-files-middleware-in-asp-net-core-applications/)
 
 - [Serve Static Files From Network Share](https://thecodeblogger.com/2021/05/17/network-path-for-static-files-in-asp-net-core-web-applications/)
@@ -84,6 +86,8 @@
 
 - [Directory Browser and File Server Middleware](https://thecodeblogger.com/2021/05/20/directory-browser-and-file-server-middlewares-in-net-web-apps/)
 
+
+# IHttpClientFactory Middleware
 - [Http Client Middleware - IHttpClientFactory Basic Usage](https://thecodeblogger.com/2021/05/21/new-way-of-making-http-requests-from-net-applications/)
 
 - [Http Client Middleware - Named Instances](https://thecodeblogger.com/2021/05/22/named-http-clients-in-net-core-web-applications/)
@@ -93,6 +97,7 @@
 - [Benefits of using IHttpClientFactory](https://thecodeblogger.com/2021/05/24/benefits-of-using-ihttpclientfactory-in-net-web-apps/)
 
 - [Outgoing API Calls - Propagate Request Headers](https://thecodeblogger.com/2021/05/25/request-header-propagation-in-net-core-web-applications/)
+
 
 # Logging
 - [Enable Logging in Console Apps](https://thecodeblogger.com/2021/05/11/how-to-enable-logging-in-net-console-applications/)
@@ -115,10 +120,12 @@
 
 - [Conventional Routing vs Attribute-Based Routing](https://thecodeblogger.com/2021/05/29/conventional-vs-attribute-routing-in-asp-net-core-apps/)
 
+
 # Exception Handling
 - [Exception Handling Middleware in Web API](https://thecodeblogger.com/2021/05/30/exception-handling-middleware-in-net-core-web-api/)
 
 - [Developer Exception Page in Web API](https://thecodeblogger.com/2021/05/31/developer-exception-page-in-asp-net-core-web-api/)
+
 
 # Model Binding and Validations
 - [Input Parameters to Web API Actions](https://thecodeblogger.com/2021/06/01/passing-input-parameters-to-net-core-web-api-actions/)
@@ -133,7 +140,8 @@
 
 # Authentication & Authorization
 
-## ASP .NET Core Identity
+
+# ASP .NET Core Identity
 - [Adding ASP .NET Core Identity to Web API Project](https://thecodeblogger.com/2020/01/23/adding-asp-net-core-identity-to-web-api-project/)
 
 - [Secure ASP .NET Core API using Cookie Authentication](https://thecodeblogger.com/2020/01/25/securing-net-core-3-api-with-cookie-authentication/)
@@ -143,8 +151,6 @@
 - [Basics - Refresh Tokens](https://thecodeblogger.com/2020/12/05/understanding-the-basics-about-the-refresh-tokens/)
 
 - [Refresh Tokens using .NET Web API and .NET Core Identity](https://thecodeblogger.com/2020/12/05/refresh-tokens-using-net-5-web-api-and-net-core-identity/)
-
-# Exception Handling
 
 
 # Angular with .NET Core API
