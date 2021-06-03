@@ -86,6 +86,13 @@
 
 - [Http Client Middleware - IHttpClientFactory Basic Usage](https://thecodeblogger.com/2021/05/21/new-way-of-making-http-requests-from-net-applications/)
 
+- [Http Client Middleware - Named Instances](https://thecodeblogger.com/2021/05/22/named-http-clients-in-net-core-web-applications/)
+
+- [Http Client Middleware - Typed Instances](https://thecodeblogger.com/2021/05/23/typed-httpclient-instances-in-net-core-web-applications/)
+
+- [Benefits of using IHttpClientFactory](https://thecodeblogger.com/2021/05/24/benefits-of-using-ihttpclientfactory-in-net-web-apps/)
+
+- [Outgoing API Calls - Propagate Request Headers](https://thecodeblogger.com/2021/05/25/request-header-propagation-in-net-core-web-applications/)
 
 # Logging
 - [Enable Logging in Console Apps](https://thecodeblogger.com/2021/05/11/how-to-enable-logging-in-net-console-applications/)
