@@ -106,6 +106,28 @@
 - [Multiple ways to set minimum log level](https://thecodeblogger.com/2021/05/14/overview-of-logging-providers-available-in-net/)
 
 
+# Routing
+- [Introduction to Routing](https://thecodeblogger.com/2021/05/26/introduction-to-routing-in-net-core-web-applications/)
+
+- [Introduction to Endpoints](https://thecodeblogger.com/2021/05/27/asp-net-core-web-application-routing-and-endpoint-internals/)
+
+- [Templates, Parameters and Attributes](https://thecodeblogger.com/2021/05/28/everything-you-should-know-about-asp-net-core-routing/)
+
+- [Conventional Routing vs Attribute-Based Routing](https://thecodeblogger.com/2021/05/29/conventional-vs-attribute-routing-in-asp-net-core-apps/)
+
+# Exception Handling
+- [Exception Handling Middleware in Web API](https://thecodeblogger.com/2021/05/30/exception-handling-middleware-in-net-core-web-api/)
+
+- [Developer Exception Page in Web API](https://thecodeblogger.com/2021/05/31/developer-exception-page-in-asp-net-core-web-api/)
+
+# Model Binding and Validations
+- [Input Parameters to Web API Actions](https://thecodeblogger.com/2021/06/01/passing-input-parameters-to-net-core-web-api-actions/)
+
+- [What to return from Web API Actions](https://thecodeblogger.com/2021/06/02/which-type-should-be-returned-from-net-core-web-api-actions/)
+
+- [Model Validations and Attributes](https://thecodeblogger.com/2021/06/03/model-validation-attributes-in-net-core-web-apis/)
+
+
 # Entity Framework 
 
 
