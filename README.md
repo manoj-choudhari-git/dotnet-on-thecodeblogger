@@ -134,6 +134,12 @@
 
 - [Model Validations and Attributes](https://thecodeblogger.com/2021/06/03/model-validation-attributes-in-net-core-web-apis/)
 
+- [Custom Validation Attributes and IValidatableObject](https://thecodeblogger.com/2021/06/04/advanced-model-validation-for-net-core-web-apis/)
+
+
+# Caching
+- [HTTP Response Cache Attribute](https://thecodeblogger.com/2021/06/05/http-response-caching-attribute-in-net-core-web-apis/)
+
 
 # Entity Framework 
 
