@@ -13,7 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace WebApiResponseCachingDemo
+namespace WebApiDistributedMemoryCache
 {
     public class Startup
     {
@@ -27,19 +27,11 @@ namespace WebApiResponseCachingDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddResponseCaching(options =>
-            {
-                // Each response cannot be more than 1 KB 
-                options.MaximumBodySize = 1024;
-
-                // Case Sensitive Paths 
-                // Responses to be returned only if case sensitive paths match
-                options.UseCaseSensitivePaths = true;
-            });
+            services.AddDistributedMemoryCache();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApiResponseCachingDemo", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApiDistributedMemoryCache", Version = "v1" });
             });
         }
 
@@ -50,17 +42,13 @@ namespace WebApiResponseCachingDemo
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApiResponseCachingDemo v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApiDistributedMemoryCache v1"));
             }
 
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
-            // CORS Should be before Response Caching 
-            app.UseCors();
-
-            app.UseResponseCaching();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
