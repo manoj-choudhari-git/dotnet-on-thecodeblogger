@@ -16,7 +16,9 @@ namespace Blog.Api
         {
             CreateMap<CategoryModel, Category>().ReverseMap();
             CreateMap<TagModel, Tag>().ReverseMap();
+            CreateMap<CommentModel, Comment>().ReverseMap();
             CreateMap<PostModel, Post>().ReverseMap();
+
         }
     }
 }

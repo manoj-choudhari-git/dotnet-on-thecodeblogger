@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 
 using Blog.Api.Models;
+using Blog.Business;
 using Blog.Business.Contracts;
 using Blog.Data.EF.Entities;
 
@@ -32,6 +33,13 @@ namespace Blog.Api.Controllers
         {
             var categories = await _categoriesBusiness.GetAllAsync();
             return Ok(_mapper.Map<IList<CategoryModel>>(categories));
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var category = await _categoriesBusiness.GetByIdAsync(id);
+            return Ok(_mapper.Map<CategoryModel>(category));
         }
 
         [HttpPost]

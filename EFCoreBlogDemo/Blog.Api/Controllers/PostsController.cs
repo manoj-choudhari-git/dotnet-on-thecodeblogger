@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 
 using Blog.Api.Models;
+using Blog.Business;
 using Blog.Business.Contracts;
 using Blog.Data.EF.Entities;
 
@@ -30,8 +31,17 @@ namespace Blog.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var categories = await _postsBusiness.GetAllAsync();
-            return Ok(_mapper.Map<IList<PostModel>>(categories));
+            // Just for demo of composite specifications
+            var posts = await _postsBusiness.GetAllAsync();
+            return Ok(_mapper.Map<IList<PostModel>>(posts));
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var business = _postsBusiness as PostsBusiness;
+            var posts = await business.GetById(id);
+            return Ok(posts);
         }
 
         [HttpPost]
@@ -43,6 +53,16 @@ namespace Blog.Api.Controllers
             }
 
             var post = _mapper.Map<Post>(newPost);
+            post.PostCategories = new List<PostCategories>();
+            foreach (var category in newPost.PostCategories)
+            {
+                post.PostCategories.Add(new PostCategories()
+                {
+                    CategoryId = category.Id,
+                    Post = post
+                });
+            }
+
             await _postsBusiness.CreateAsync(post);
             return Ok();
         }

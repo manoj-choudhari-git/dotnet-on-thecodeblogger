@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using Blog.Data.Contracts.Specifications;
 using Blog.Data.EF;
 
 using Microsoft.EntityFrameworkCore;
@@ -30,11 +31,22 @@ namespace Blog.Data.Contracts
             }
         }
 
-        public async Task<TEntity> GetByIdAsync(int id)
+        public async Task<TEntity> GetByIdAsync(int id, IBaseSpecifications<TEntity> baseSpecifications = null)
         {
             try
             {
-                var item = await _blogContext.Set<TEntity>().Where(x => x.Id == id).AsNoTracking().FirstOrDefaultAsync();
+                var item = await _blogContext.Set<TEntity>()
+                    .Where(baseSpecifications.FilterCondition)
+                    .AsNoTracking()
+                    .FirstOrDefaultAsync();
+
+                //var item = await SpecificationEvaluator<TEntity>.GetQuery(_blogContext.Set<TEntity>()
+                //                    .Where(x => x.Id == id)
+                //                    .AsQueryable(), baseSpecifications)
+                //                    .AsNoTracking()
+                //                    .FirstOrDefaultAsync();
+
+                // var item = await _blogContext.Set<TEntity>().Where(x => x.Id == id).AsNoTracking().FirstOrDefaultAsync();
                 if (item == null)
                 {
                     throw new Exception($"Couldn't find entity with id={id}");
@@ -69,12 +81,12 @@ namespace Blog.Data.Contracts
 
         public async Task<TEntity> UpdateAsync(TEntity data)
         {
-            
+
             if (data == null)
             {
                 throw new ArgumentNullException(nameof(data));
             }
-            
+
             try
             {
                 _blogContext.Set<TEntity>().Update(data);

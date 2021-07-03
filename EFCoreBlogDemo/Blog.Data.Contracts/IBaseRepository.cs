@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
+using Blog.Data.Contracts.Specifications;
 using Blog.Data.EF;
 
 namespace Blog.Data.Contracts
@@ -9,7 +10,7 @@ namespace Blog.Data.Contracts
     {
         Task<IList<TEntity>> GetAllAsync();
 
-        Task<TEntity> GetByIdAsync(int id);
+        Task<TEntity> GetByIdAsync(int id, IBaseSpecifications<TEntity> baseSpecifications = null);
 
         Task<TEntity> CreateAsync(TEntity entity);
 
