@@ -21,11 +21,7 @@ namespace Blog.Business
 
         public Task<Post> GetById(int id)
         {
-            var specifications = new PostRelatedDataSpecifications(id)
-                                    .And(new PostsWithoutCommentsSpecification())
-                                    .Or(new PostsCreatedInLastMonthSpecification());
-
-            return Repository.GetByIdAsync(id, specifications);
+            return Repository.GetByIdAsync(id);
         }
     }
 }

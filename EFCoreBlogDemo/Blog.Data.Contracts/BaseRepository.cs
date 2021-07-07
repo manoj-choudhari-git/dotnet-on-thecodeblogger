@@ -36,7 +36,7 @@ namespace Blog.Data.Contracts
             try
             {
                 var item = await _blogContext.Set<TEntity>()
-                    .Where(baseSpecifications.FilterCondition)
+                    .Where(x => x.Id == id)
                     .AsNoTracking()
                     .FirstOrDefaultAsync();
 

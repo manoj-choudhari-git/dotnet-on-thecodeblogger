@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Business", "Blog.Busin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Business.Contracts", "Blog.Business.Contracts\Blog.Business.Contracts.csproj", "{5F328DE5-3103-4E73-9B01-51972949B108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Api", "Blog.Api\Blog.Api.csproj", "{009B06BC-CEF4-4649-B288-D1F361C18756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Api", "Blog.Api\Blog.Api.csproj", "{009B06BC-CEF4-4649-B288-D1F361C18756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Data.Tests", "Blog.Data.Tests\Blog.Data.Tests.csproj", "{3D9DBE2F-1F85-4865-9494-278616D04310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{009B06BC-CEF4-4649-B288-D1F361C18756}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{009B06BC-CEF4-4649-B288-D1F361C18756}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{009B06BC-CEF4-4649-B288-D1F361C18756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9DBE2F-1F85-4865-9494-278616D04310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9DBE2F-1F85-4865-9494-278616D04310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9DBE2F-1F85-4865-9494-278616D04310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9DBE2F-1F85-4865-9494-278616D04310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
