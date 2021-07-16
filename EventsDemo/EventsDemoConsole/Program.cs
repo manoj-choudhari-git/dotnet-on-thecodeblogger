@@ -11,17 +11,11 @@ namespace EventsDemoConsole
     {
         static async Task Main(string[] args)
         {
+            // First Unit-of-Work showing Add operation
             AddStudents();
 
-            using var context = BuildUniversityContext();
-            var student = await context.Students.Where(x => x.Id == 1).FirstOrDefaultAsync();
-            student.FirstName = "Harry";
-            student.LastName= "Potter";
-            context.Update(student);
-
-            var anotherStudent = await context.Students.Where(x => x.FirstName == "Jane").FirstOrDefaultAsync();
-            context.Remove(anotherStudent);
-            await context.SaveChangesAsync();
+            // Second Unit-of-Work showing Update and Remove operations
+            await ModifyStudents();
         }
 
         static void AddStudents()
@@ -43,6 +37,19 @@ namespace EventsDemoConsole
                     Address = "4 Privet Drive",
                 });
             context.SaveChanges();
+        }
+
+        static async Task ModifyStudents()
+        {
+            using var context = BuildUniversityContext();
+            var student = await context.Students.Where(x => x.Id == 1).FirstOrDefaultAsync();
+            student.FirstName = "Harry";
+            student.LastName = "Potter";
+            context.Update(student);
+
+            var anotherStudent = await context.Students.Where(x => x.FirstName == "Jane").FirstOrDefaultAsync();
+            context.Remove(anotherStudent);
+            await context.SaveChangesAsync();
         }
 
         static UniversityContext BuildUniversityContext()
