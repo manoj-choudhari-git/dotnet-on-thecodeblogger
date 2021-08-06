@@ -191,7 +191,7 @@
 
 
 
-# Object Mapping
+# Auto Mapper
 - [Configure AutoMapper For ASP .NET Core API App](https://thecodeblogger.com/2021/06/17/configure-automapper-for-asp-net-core-api-app/)
 
 
