@@ -215,7 +215,7 @@
 - [How to Define Keyless Entities in EF Core](https://thecodeblogger.com/2021/07/13/how-to-define-keyless-entities-in-net-ef-core/)
 
 
-### Migrations 
+### Migrations - To Create Database and Tables
 - [Entity Framework Core – Migration Tool and Commands](https://thecodeblogger.com/2021/06/18/entity-framework-core-migration-tool-and-commands/)
 
 - [Know Everything About .NET EF Core Migrations](https://thecodeblogger.com/2021/07/24/know-everything-about-net-ef-core-migrations/)
@@ -231,7 +231,7 @@
 - [In Memory Database Provider for Testing .NET EF Core App](https://thecodeblogger.com/2021/07/07/in-memory-database-provider-for-testing-net-ef-core-app/)
 
 
-### Database Access
+### Access the Database - CRUD operations, Transactions and other features
 - [How to perform CRUD operations with .NET EF Core](https://thecodeblogger.com/2021/06/26/how-to-perform-crud-operations-with-net-ef-core/)
 
 - [How to store enum to the database?](https://thecodeblogger.com/2021/07/08/net-ef-core-how-to-store-enum-to-the-database/)
@@ -259,10 +259,8 @@
 - [Implement optimistic concurrency with .NET EF Core](https://thecodeblogger.com/2021/07/04/implement-optimistic-concurrency-with-net-ef-core/)
 
 
-
 ### Logging
 - [Enable Simple Logging with .NET EF Core Apps](https://thecodeblogger.com/2021/07/06/enable-simple-logging-with-net-ef-core-apps/)
-
 
 
 ### Patterns
