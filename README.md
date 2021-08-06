@@ -252,6 +252,8 @@
 
 - [EF Core Interceptors to modify database commands](https://thecodeblogger.com/2021/07/18/net-ef-core-interceptors-to-modify-database-commands/)
 
+- [Eager Loading vs Lazy Loading vs Explicit Loading](https://thecodeblogger.com/2021/06/30/blog-app-reading-related-data-using-net-ef-core/)
+
 
 ### Concurrency and Conflicts
 - [Basics Concurrency Controls and Conflicts with .NET EF Core](https://thecodeblogger.com/2021/07/03/basics-concurrency-controls-and-conflicts-with-net-ef-core/)
